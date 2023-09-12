@@ -1,0 +1,151 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+* header{
+    background-color: firebrick;
+}
+body{
+  background-color: slategray;
+}
+html{
+  scroll-behavior: smooth;
+}
+#h1-header{
+    color: black;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+.h3-header{
+    color: black;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+
+.section-1{
+  background-color: firebrick;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  height: 160px;
+  color: black;
+  border-radius: 12px;
+}
+.h2-section1{
+  font-family: arial;
+  font-size: 25px;
+  padding-top: 27px;
+}
+
+.cardapio {
+  margin-top: 600px;
+  text-align: center;
+}
+.p1{
+  padding-top: 13px;
+  font-family: arial;
+  font-size: 22px;
+}
+.link-cabeçalho{
+font-weight: bolder;
+font-family: arial;
+}
+.link-cabeçalho:hover{
+  color: yellow;
+  transition: all ease-in-out 3ms;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carrossel {
+  margin: 0 auto;
+}
+
+.carrossel__titulo{
+  color: orange;
+  background: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  width: 95%;
+  margin-top: 15vh;
+}
+
+.pic-ctn > .doc {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display 10s infinite;
+}
+
+.doc:nth-child(2) {
+  animation-delay: 2s;
+}
+.doc:nth-child(3) {
+  animation-delay: 4s;
+}
+.doc:nth-child(4) {
+  animation-delay: 6s;
+}
+img:nth-child(5) {
+  animation-delay: 8s;
+}
+
+.caixa {
+  width: 90%;
+  margin: 0 auto 0;
+}
+
+
+
+footer {
+  height: 200px;
+  background-color: firebrick;
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+}
